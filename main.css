@@ -8,7 +8,22 @@ a {
 }
 
 a:hover {
-    color: #000;
+  color: #000;
 
 }
 
+.box {
+  padding-top: 100px;
+  background-color: #79797f;
+  width: 150px;
+  height: 150px;
+  transition-property: background-color;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out
+
+}
+
+.box:hover {
+  background-color: #e84610;
+
+}
